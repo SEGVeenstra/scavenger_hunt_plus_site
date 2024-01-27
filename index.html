@@ -1,2 +1,20 @@
 <h1>Scavenger Hunt Plus</h1>
-<p>Comiing soon!</p>
+<p>Coming soon!</p>
+
+<script>
+  // Function to get the value of a query parameter by name
+  function getQueryParam(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+  }
+
+  // Get the 'g' query parameter value
+  const gValue = getQueryParam('g');
+
+  // Display the value on the page
+  if (gValue !== null) {
+    document.body.innerHTML += `<p>Value of 'g' parameter: ${gValue}</p>`;
+  } else {
+    document.body.innerHTML += `<p>No 'g' parameter found in the query string.</p>`;
+  }
+</script>
