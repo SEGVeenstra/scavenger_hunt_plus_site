@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "9P4389B2DX.nl.segit.scavengerHunt",
+        "paths": ["/play*", "/play?g=*"]
+      },
+      {
+        "appID": "9P4389B2DX.nl.segit.scavengerHunt.tst",
+        "paths": ["/play*", "/play?g=*"]
+      },
+      {
+        "appID": "9P4389B2DX.nl.segit.scavengerHunt.dev",
+        "paths": ["/play*", "/play?g=*"]
+      }
+    ]
+  }
+}
