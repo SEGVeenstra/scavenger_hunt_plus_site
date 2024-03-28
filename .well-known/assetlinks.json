@@ -1,9 +1,38 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "nl.segit.scavenger_hunt.dev",
-    "sha256_cert_fingerprints":
-    ["37:F9:D5:68:14:A5:32:2E:30:39:9C:61:33:EE:AE:32:54:89:99:8A:EA:FA:5C:35:88:AC:DB:A0:47:BA:81:D7"]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "nl.segit.scavenger_hunt.dev",
+      "sha256_cert_fingerprints": [
+        "37:F9:D5:68:14:A5:32:2E:30:39:9C:61:33:EE:AE:32:54:89:99:8A:EA:FA:5C:35:88:AC:DB:A0:47:BA:81:D7"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "nl.segit.scavenger_hunt.tst",
+      "sha256_cert_fingerprints": [
+        "AB:33:58:A9:A8:4F:C4:FA:B0:DB:50:B4:C0:C1:75:05:50:81:F5:30:3E:6A:ED:34:77:D2:BA:5E:68:01:A0:77"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "nl.segit.scavenger_hunt",
+      "sha256_cert_fingerprints": [
+        "B5:64:EF:B5:A8:F4:15:BA:EA:81:1C:0B:F1:DF:39:11:80:88:92:FA:72:5A:6F:41:D9:C2:D1:49:F6:B1:2B:C9"
+      ]
+    }
   }
-}]
+]
